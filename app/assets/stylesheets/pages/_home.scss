@@ -30,30 +30,6 @@
   text-shadow: 4px 4px 1px #E2C2FF;
 }
 
-.color-stripe {
-  position: relative;
-}
-
-.pink {
-  background-color: #FFCAE9;
-  height: 5vh;
-}
-
-.purple {
-  background-color: #E2C2FF;
-  height: 5vh;
-}
-
-.yellow {
-  background-color: #FEFFBE;
-  height: 5vh;
-}
-
-.white {
-  background-color: white;
-  height: 5vh;
-}
-
 .top {
   z-index: 7;
   position: relative;
@@ -63,4 +39,21 @@
   height: 80vh;
   width: 100vw;
   text-align: center;
+  padding: 50px;
+}
+
+.conscious-clicks {
+  background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+}
+
+.cloud-castles {
+  background: linear-gradient(360deg, #FFCAE9 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+}
+
+.mom-zorn {
+  background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+}
+
+.photo-portfolio {
+  background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
 }
