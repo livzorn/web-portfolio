@@ -1,0 +1,29 @@
+.down-arrow {
+  position: absolute;
+  width: 60px;
+  font-size: 60px;
+  color: white;
+  top: 2vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px 1px #6726E0;
+}
+
+.btn-scroll {
+  font-size: 80px;
+  opacity: 40%;
+}
+
+.blinking {
+    animation: blinkingText 3s infinite;
+}
+
+@keyframes blinkingText {
+    0%{     color: #279AF1;    }
+    20%{    color: #279AF1; }
+    40%{    color: transparent; }
+    60%{    color: transparent;  }
+    100%{   color: #279AF1;    }
+}

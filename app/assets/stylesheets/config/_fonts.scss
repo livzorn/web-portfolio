@@ -1,9 +1,9 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Autour+One&family=Bellota:wght@300;400;700&family=BioRhyme+Expanded:wght@200;300;400;700&family=BioRhyme:wght@200;300;400;700;800&family=Biryani&family=Bubbler+One&family=Capriola&family=Hepta+Slab:wght@100;200;300;400;500;600&family=Jacques+Francois+Shadow&family=Lexend+Exa&family=Lexend+Giga&family=Lexend+Mega&family=Lexend+Zetta&family=Montserrat&family=Nixie+One&family=Open+Sans&family=Poller+One&family=Raleway&family=Roboto&family=Roboto+Slab&family=Sen&family=Vast+Shadow&family=Yeseva+One&display=swap');
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: 'Raleway', sans-serif;
+$headers-font: 'Lexend Exa', sans-serif;
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +14,28 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+// font-family: 'Abhaya Libre', serif;
+// font-family: 'Autour One', cursive;
+// font-family: 'Bellota', cursive;
+// font-family: 'BioRhyme', serif;
+// font-family: 'BioRhyme Expanded', serif;
+// font-family: 'Biryani', sans-serif;
+// font-family: 'Bubbler One', sans-serif;
+// font-family: 'Capriola', sans-serif;
+// * font-family: 'Hepta Slab', serif;
+// font-family: 'Jacques Francois Shadow', cursive;
+// * font-family: 'Lexend Exa', sans-serif;
+// font-family: 'Lexend Giga', sans-serif;
+// font-family: 'Lexend Mega', sans-serif;
+// font-family: 'Lexend Zetta', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// * font-family: 'Nixie One', cursive;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poller One', cursive;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Roboto Slab', serif;
+// * font-family: 'Sen', sans-serif;
+// font-family: 'Vast Shadow', cursive;
+// font-family: 'Yeseva One', cursive;
