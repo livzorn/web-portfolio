@@ -3,7 +3,7 @@
   z-index: 0;
 }
 
-.cloud { transition: all 1.5s ease-in-out; }
+.cloud { transition: all 1s ease-in-out; }
 .cloud:hover { transform: scale(1.15); }
 
 #cloud1 {
@@ -17,7 +17,7 @@
 }
 
 #cloud5 {
-  top: 350px;
+  bottom: 70px;
   left: 90px;
 }
 

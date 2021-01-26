@@ -9,22 +9,25 @@
   color: #279AF1;
   position: relative;
   text-shadow: 2px 2px 1px #E2C2FF;
-  h1 {
-    font-size: 90px;
-    text-shadow: 4px 4px 1px #E2C2FF;
-  }
 }
 
 .container-hello {
   display: flex;
   margin-left: 200px;
-  width: auto;
+  width: 120px;
 }
 
 .my-name-is {
   margin-left: 250px;
   text-align: left;
-  width: auto;
+  width: 225px;
+}
+
+.olivia {
+  width: 625px;
+  margin: 0 auto;
+  font-size: 90px;
+  text-shadow: 4px 4px 1px #E2C2FF;
 }
 
 .color-stripe {
@@ -54,4 +57,10 @@
 .top {
   z-index: 7;
   position: relative;
+}
+
+.project {
+  height: 80vh;
+  width: 100vw;
+  text-align: center;
 }
