@@ -36,29 +36,25 @@
 }
 
 .project {
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   text-align: center;
-  padding: 25px;
+  padding: 50px;
 }
 
 .i-am {
-  margin-left: 100px;
+  width: 650px;
+  margin-left: 10vw;
 }
 
 .i-studied {
-  margin-left: 200px;
-  margin-top: 40px;
-}
-
-.tech-stack {
-  margin-left: 300px;
-  margin-top: 40px;
+  width: 600px;
+  margin-left: 30vw;
 }
 
 .take-a-look {
-  margin-left: 400px;
-  margin-top: 40px;
+  text-align: center;
+  margin-left: 40vw;
 }
 
 .description {
@@ -67,24 +63,71 @@
   margin: 20px auto;
 }
 
+.about-me {
+  background-color: #96aeff;
+  color: white;
+  text-align: left;
+  margin: 0 auto;
+  height: 80vh;
+  width: 100vw;
+}
 
+.about-content {
+  margin: 0 auto;
+  padding-top: 14vh;
+  h4 {
+    margin-bottom: 60px;
+    line-height: 40px;
+  }
+}
 
 .conscious-clicks {
-  background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
-
+  background-color: #FFFFE3;
+  color: #2d5bff;
+  a {
+    color: #2d5bff;
+  }
 }
 
 .cloud-castles {
-  background: linear-gradient(360deg, #FFCAE9 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  background-color: #ed6ac6;
+  color: white;
+  a {
+    color: white;
+  }
 }
 
 .mom-zorn {
-  background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  background-color: #D4FCE2;
+  color: #3D3838;
+  a {
+    color: #3D3838;
+  }
 }
 
 .photo-portfolio {
-  background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  background-color: #96aeff;
+  color: white;
   .description {
     width: 550px;
   }
+  a {
+    color: white;
+  }
 }
+
+.hello {
+  font-size: 60px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 150px;
+  margin-top: 100px;
+  a {
+    text-decoration: none;
+  }
+}
+
+
