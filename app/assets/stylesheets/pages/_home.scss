@@ -39,11 +39,39 @@
   height: 80vh;
   width: 100vw;
   text-align: center;
-  padding: 50px;
+  padding: 25px;
 }
+
+.i-am {
+  margin-left: 100px;
+}
+
+.i-studied {
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.tech-stack {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.take-a-look {
+  margin-left: 400px;
+  margin-top: 40px;
+}
+
+.description {
+  width: 660px;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+
 
 .conscious-clicks {
   background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+
 }
 
 .cloud-castles {
@@ -56,4 +84,7 @@
 
 .photo-portfolio {
   background: linear-gradient(360deg, #FEFFBE 0%, rgba(255, 255, 255, 0.0309089) 99.98%, rgba(255, 255, 255, 0.015625) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  .description {
+    width: 550px;
+  }
 }
